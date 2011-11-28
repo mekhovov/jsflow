@@ -13,7 +13,7 @@
 		<%= javascript_include_tag "libs/json2.js" %>  
 		<%= javascript_include_tag "libs/backbone.js" %>
 		<%= javascript_include_tag "libs/goog/base.js" %>
-		<%= javascript_include_tag "build/assess.js" %>
+		<%= javascript_include_tag "assess.js" %>
 		<script type="text/javascript">
 			<!-- Enable the google closure library in development mode. -->
 			
@@ -21,7 +21,7 @@
 			$(document).ready(function () {
 				//goog.global.CLOSURE_BASE_PATH = "public/javascript/"
 				goog.require("assess.ready");		
-				//assess.ready.homePageReady("home");
+				assess.ready.homePageReady("home");
 			});
 		</script>
 		
