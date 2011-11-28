@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MusicList</title>
+  
+
+</head>
+<body>
+	<div id="home"></div>
+		<%= stylesheet_link_tag :all %>
+		<%= javascript_include_tag "libs/jquery-1.6.4.js" %>
+		<%= javascript_include_tag "libs/underscore.js" %>
+		<%= javascript_include_tag "libs/json2.js" %>  
+		<%= javascript_include_tag "libs/backbone.js" %>
+		<%= javascript_include_tag "libs/goog/base.js" %>
+		<%= javascript_include_tag "build/assess.js" %>
+		<script type="text/javascript">
+			<!-- Enable the google closure library in development mode. -->
+			
+			
+			$(document).ready(function () {
+				goog.require("assess.ready");		
+				assess.ready.homePageReady("home");
+			});
+		</script>
+		
+</body>
+</html>
