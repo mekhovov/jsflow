@@ -22,7 +22,7 @@ namespace :javascript do
 	end
 
 	def closurize_assess(format)
-			base     = "public/javascripts/libs/goog/base.js"
+			base     = "public/javascripts/base.js"
 			libs_dir = "public/javascripts/libs"
 			app_dir  = "public/javascripts/assess"
 

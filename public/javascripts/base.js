@@ -300,7 +300,7 @@ goog.basePath = '';
  * A hook for overriding the base path.
  * @type {string|undefined}
  */
-goog.global.CLOSURE_BASE_PATH = "javascripts/";
+goog.global.CLOSURE_BASE_PATH;
 
 
 /**
